@@ -1,0 +1,24 @@
+{
+  "name": "practicerepo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gundamtrooperx/practiceREPO.git"
+  },
+  "author": "Frank Carr",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gundamtrooperx/practiceREPO/issues"
+  },
+  "homepage": "https://github.com/gundamtrooperx/practiceREPO#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.10.7"
+  }
+}
