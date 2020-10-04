@@ -5,7 +5,7 @@ const WorkoutSchema = new Schema({
 
     date: {
         type: Date,
-        default: Date.now
+        default: new Date(),
     },
     exercises: [
         {
@@ -28,11 +28,11 @@ const WorkoutSchema = new Schema({
                 type: Number
                
             },
-            sets: {
+            reps: {
                 type: Number
                 
             },
-            reps: {
+            sets: {
                 type: Number
                 
             },

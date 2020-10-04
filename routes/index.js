@@ -17,7 +17,7 @@ routes.put("/api/workouts/:id",function(req, res ){
         {$push:{exercises:req.body}},
         {new:true})
     .then(function(records){
-        console.log("put route", records)
+        console.log("put route", records.exercises)
         res.json(records)
     })
 })
